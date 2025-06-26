@@ -1,0 +1,25 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  /* transition-duration: 2s;
+  transition-delay: 2s; */
+  margin: 20px auto;
+  margin-top: 20px;
+  transition: margin-top 2s ease 0.2s;
+
+  box-shadow: 2px 5px 20px rgb(0, 0, 0);
+     
+  /* background */
+  background-image: url("https://images.unsplash.com/photo-1735809489088-ead6b62e5ac5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; 
+}
+
+/* div:hover {
+  margin-top: 400px;
+  background-color: rgb(4, 2, 2);
+} */
+
+/* transition */
+/* transfrom */
+

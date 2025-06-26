@@ -1,0 +1,39 @@
+#container{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.innerCircle{
+    height:50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#redLight{
+    background-color: red;
+}
+
+#yellowLight{
+    background-color: yellow;
+}
+
+#greenLight{
+    background-color: green;
+}
+
+#outer {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 20px;
+}
+
+#inner {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(54, 31, 184);
+    margin-left: 50%;
+}

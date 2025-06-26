@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- First Form -->
+    <form action="/action">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" placeholder="enter name" id="username" name="user" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          placeholder="enter password"
+          id="password"
+          name="pass"
+        />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" placeholder="enter age" id="age" />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr />
+
+    <!-- Form for YouTube -->
+    <form action="https://www.youtube.com/results">
+      <h3>For YouTube</h3>
+      <input type="text" placeholder="Search here" name="search_query" />
+      <button>Search</button>
+    </form>
+
+    <hr />
+
+    <!-- Form for Google -->
+    <form action="https://www.google.com/search">
+      <h3>For Google</h3>
+      <input type="text" placeholder="Search here" name="q" />
+      <button>Search</button>
+    </form>
+
+    <hr />
+
+    <!-- Checkbox and Radio Form -->
+    <form action="/server">
+      <input type="checkbox" id="age-checkbox" name="age" checked />
+      <label for="age-checkbox">I am 18+</label>
+      <button>Submit</button>
+
+      <hr />
+
+      <!-- Radio Buttons -->
+      <p>Choose a fruit:</p>
+      <input type="radio" name="fruit" id="apple" value="apple" />
+      <label for="apple">Apple</label>
+
+      <input type="radio" name="fruit" id="mango" value="mango" />
+      <label for="mango">Mango</label>
+
+      <input type="radio" name="fruit" id="banana" value="banana" />
+      <label for="banana">Banana</label>
+
+      <hr />
+
+      <!-- Dropdown -->
+      <div>
+        <p>Choose a profession:</p>
+        <select name="profession" id="profession">
+          <option value="stu" selected>Student</option>
+          <option value="dev">Developer</option>
+        </select>
+        <button>Submit</button>
+      </div>
+      <hr />
+      <div>
+        <label for="range">Select you volume level</label>
+        <input
+          type="range"
+          id="range"
+          min="10"
+          max="100"
+          name="vol"
+          step="10"
+          value="40"
+        />
+        <button>Submit</button>
+      </div>
+      <hr />
+      <div>
+        <label for="feedback">Please give your feedback:</label>
+        <textarea
+          name="feedback"
+          id="feedback"
+          rows="5"
+          cols="50"
+          placeholder="Write your feedback"
+        ></textarea>
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

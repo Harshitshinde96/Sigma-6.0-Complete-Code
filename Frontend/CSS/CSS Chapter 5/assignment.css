@@ -1,0 +1,42 @@
+.alphabates{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 3px solid cadetblue;
+    display: flex ;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.letters{
+    height: 100px;
+    width: 100px;
+    border: 0.2rem solid black;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+#navbar{
+    height: 50px;
+    width: 900px;
+    background-color: rgb(233, 161, 173);
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+
+.option{
+    height: 50px;
+    width: 80px;
+    margin-left: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+    line-height: 50px;
+}
