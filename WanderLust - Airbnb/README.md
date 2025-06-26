@@ -1,3 +1,0 @@
-# WanderaLudt (Airbnb)
-
-test
